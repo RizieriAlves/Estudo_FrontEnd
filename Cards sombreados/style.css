@@ -1,0 +1,70 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: darkslategray;   
+
+}
+
+.cards{
+    margin-top: 2vh;
+    width: 100vw;
+    height: 98vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card{
+    width: 25vw;
+    height: 25vh;
+    padding: 20px 40px;
+    background-color: white;
+    position: relative;
+}
+
+.card::before{
+    content: "";
+    width: 35px;
+    height: 35px;
+    background-image: linear-gradient(to bottom right, darkslategray 50%, white 50%);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.card2{
+    width: 25vw;
+    height: 25vh;
+    padding: 20px 40px;
+    background-color: white;
+    position: relative;
+}
+
+.card2::before{
+    content: "";
+    width: 35px;
+    height: 35px;
+    background-image: linear-gradient(to bottom right, darkslategray 50%, #ccc 50%);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.card3{
+    width: 25vw;
+    height: 25vh;
+    padding: 20px 40px;
+    background-color: white;
+    position: relative;
+}
+
+.card3::before{
+    content: "";
+    width: 35px;
+    height: 35px;
+    background-image: linear-gradient(to bottom right, darkslategray 50%, white 50%);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.315)
+}

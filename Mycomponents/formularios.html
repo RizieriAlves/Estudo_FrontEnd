@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styleindex.css">
+  <title>Tipografia</title>
+</head>
+
+<body>
+  <div class="lateral">
+    <img class="foto" src="eu.jpg" alt="Eu" />
+    <div class="menu">
+      <a class="botao" href="index.html"> Home </a>
+      <a class="botao" href="tipografia.html"> Tipografia </a>
+      <a class="botao" href="cards.html"> Cards </a>
+      <a class="botao" href="listas.html"> Listas </a>
+      <a class="botao" href="formularios.html"> Formulário </a>
+      <a class="botao" href="botoes.html"> Botões </a>
+      <a class="botao" href="#"> Tabelas </a>
+    </div>
+  </div>
+  <div class="central">
+    <h1>My component</h1>
+    <h2 class="orange marg">Entre em contato</h2>
+    <form action="form.php" method="post">
+      <label for="name">Nome <input type="text" placeholder="Digite seu Nome" required id="name" autocomplete="off"></label>
+      <label for="email">Email <input type="email" placeholder="Digite seu e-mail" required id="email" autocomplete="off"></label>
+      <label for="msg">Digite sua mensagem <textarea name="msg" id="msg" cols="10" rows="10"
+          required></textarea></label>
+      <input type="submit" value="Enviar" class="form1">
+    </form>
+      <h2 class="orange marg quiz"> Quiz</h2>
+      <form action="quiz.php" method="post">
+      <label for="lang">Qual a sua linguagem favorita?</label><select name="linguagem" id="lang" class="width100">
+        <option value="">Selecione</option>
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="js">JavaScript</option>
+        <option value="java">Java</option>
+        <option value="python">Python
+        <option>
+      </select>
+      <div class="width100">
+        <div class="radios">
+          <div class="flex">
+            <p class="label2 align">Baixa Prioridade</p> <input type="radio" name="baixaprioridade"
+              id="prioridade">
+          </div>
+          <div class="radios">
+            <div class="flex">
+              <p class="label2 align">Média Prioridade</p> <input type="radio" name="mediaprioridade"
+                id="prioridade" >
+            </div>
+            <div class="radios">
+              <div class="flex">
+                <p class="label2 align">Alta Prioridade</p> <input type="radio" name="altaprioridade"
+                  id="prioridade">
+              </div>
+            </div>
+          </div>
+          <div class="width100 ">
+            <label for="copia" class="width100 flex nopad">
+              <input type="checkbox" name="copia" id="copia">
+              <p class="white copia">Envie me uma cópia</p>
+            </label>
+            <label for="human" class="width100 flex nopad">
+              <input type="checkbox" name="human" id="human">
+              <p class="white copia">Sou um humano</p>
+            </label>
+          
+          <div class="flex">
+            <input type="reset" value="Limpar" class="metade bgwhite">
+            <input type="submit" value="Enviar" name="quiz" class="metade">
+          </div>
+        </div>
+        </form>
+  </div>
+</body>
+
+</html>

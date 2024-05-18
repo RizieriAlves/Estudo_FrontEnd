@@ -1,0 +1,55 @@
+.contorno {
+    display: inline-block;
+    width: 3.125em; /* 50px */
+    height: 1.25em; /* 20px */
+    outline: 0.0625em black solid; /* 1px */
+    border-radius: 0.625em; /* 10px */
+    background-color: white;
+    position: relative;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .bola {
+    position: absolute;
+    height: 1.25em; /* 20px */
+    width: 1.25em; /* 20px */
+    background-color: #ccc;
+    outline: 0.0625em solid black; /* 1px */
+    border-radius: 0.625em; /* 10px */
+    left: 0;
+    transition: 1s;
+    margin: 0;
+    padding: 0;
+  }
+  
+  input[type="checkbox"]:checked + .contorno .bola {
+    left: 30px;
+  }
+  
+  input[type="checkbox"]:checked + .contorno {
+    background-color: #e7e5e5;
+    transition-duration: 1s;
+    transition-property: background-color;
+  }
+  
+  label {
+    position: relative;
+  }
+  
+  input[type="checkbox"] {
+    width: 0.0625em; /* 1px */
+    height: 0.0625em; /* 1px */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    outline: none;
+    position: absolute;
+    left: 0.625em; /* 10px */
+    top: 0.625em; /* 10px */
+  }
+  
+  input[type="checkbox"]:focus + .contorno {
+    outline: 0.125em solid burlywood; /* 2px */
+  }
+  

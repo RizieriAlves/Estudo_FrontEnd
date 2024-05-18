@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cadastro</title>
+  </head>
+  <body>
+    <form action="#">
+      <fieldset>
+        <legend>Cadastro</legend>
+        <label for="usuario"> Usuário </label>
+        <input type="text" name="user" id="usuario" required autocomplete="off" autofocus/>
+        <label for="email"> Email </label>
+        <input type="email" name="email" id="email" required autocomplete="off"/>
+        <label for="pass"> Senha</label>
+        <input type="password" name="password" id="pass" required autocomplete="off"/>
+        <div class="alinha">
+          <input
+            type="submit"
+            value="Cadastre-se"
+            class="fit"
+            name="cadastro"
+          />
+          <p>
+            Já possui cadastro?
+            <a href="index.html" class="fit blue">Fazer Login</a>
+          </p>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>

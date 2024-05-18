@@ -1,0 +1,89 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: aqua;
+}
+
+h1 {
+  display: block;
+  margin: auto;
+  width: fit-content;
+  margin-top: 20vh;
+}
+
+.lista {
+  background-color: whitesmoke;
+  width: 50vw;
+  height: 50vh;
+  margin: auto;
+  overflow: auto;
+  overflow-x:hidden;
+  position: relative;
+}
+.pessoa {
+  width: 50vw;
+  height: 17vh;
+  display: block;
+  position: relative;
+}
+
+.pessoa:hover {
+  background-color: burlywood;
+}
+.foto {
+  width: 16vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+img {
+  border-radius: 50%;
+  width: 100%;
+  margin: 5px auto;
+}
+
+.infos {
+  width: fit-content;
+  position: absolute;
+  top: 50%;
+  left: 35vh;
+  transform: translate(-50%, -50%);
+}
+
+h2, p {
+    color: #575454;
+    letter-spacing: 3px;
+}
+
+.icone1{
+    display: inline-block;
+    background-color: aqua;
+    width: 4vw;
+    height: 4vh;
+    background: url(Imagens/lixeira.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 15vh;
+    top: 7vh;
+    z-index: 2;
+}
+.icone2{
+    display: inline-block;
+    background-color: aqua;
+    width: 4vw;
+    height: 4vh;
+    background: url(Imagens/escrever.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 9vh;
+    top: 7vh;
+    z-index: 2;
+}
